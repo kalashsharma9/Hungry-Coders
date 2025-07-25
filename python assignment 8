@@ -1,0 +1,12 @@
+# 8 Fix the invalid variable names in the code below. Python follows similar rules: variables can contain letters, numbers, and _, but cannot start with numbers, contain hyphens, or use reserved words.
+
+
+
+# 2nd_item = 50         #  Starts with a number
+# item-price = 30       #  Hyphen is not allowed
+# class = "Math"        #  'class' is a reserved keyword
+
+
+second_item = 50      #  Use letters or underscores, not digits at the beginning
+item_price = 30       #  Use underscore instead of hyphen
+class_name = "Math"   #  Avoid reserved words like 'class'
