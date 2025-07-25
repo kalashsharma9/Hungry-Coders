@@ -1,0 +1,16 @@
+#  3 Create two versions of the number 100: one as an integer and one as a string. Show the difference by displaying their types and what happens when you try to add them.
+
+# Create variables
+num_int = 100        # Integer
+num_str = "100"      # String
+
+# Display their values and types
+print("num_int:", num_int, "| Type:", type(num_int))
+print("num_str:", num_str, "| Type:", type(num_str))
+
+# Try to add them
+try:
+    result = num_int + num_str
+    print("Result of addition:", result)
+except TypeError as e:
+    print("Error while adding integer and string:", e)
