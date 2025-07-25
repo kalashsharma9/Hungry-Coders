@@ -1,0 +1,13 @@
+# 2 Create variables with different data types and use type() to display their types. Create: a number (int/float), a string, a boolean (True/False), and display each value with its type.
+
+# Creating variables of different data types
+num_int = 25            # Integer
+num_float = 3.14        # Float
+text = "Hello, Python!" # String
+flag = True             # Boolean
+
+# Displaying values and their types
+print("Value:", num_int, "| Type:", type(num_int))
+print("Value:", num_float, "| Type:", type(num_float))
+print("Value:", text, "| Type:", type(text))
+print("Value:", flag, "| Type:", type(flag))
